@@ -108,13 +108,13 @@
 #endif
 
 #ifndef AP_SSID
-#define AP_SSID                       "OnStepX"                   // Wifi Access Point SSID
+#define AP_SSID                       "OnStepX-AJT"                   // Wifi Access Point SSID
 #endif
 #ifndef AP_PASSWORD
-#define AP_PASSWORD                   "password"                  // Wifi Access Point password
+#define AP_PASSWORD                   "ajtownshend1968"                  // Wifi Access Point password
 #endif
 #ifndef AP_CHANNEL
-#define AP_CHANNEL                    7                           // Wifi Access Point channel
+#define AP_CHANNEL                    4                           // Wifi Access Point channel
 #endif
 #ifndef AP_IP_ADDR
 #define AP_IP_ADDR                    {192,168,0,1}               // Wifi Access Point IP Address
@@ -133,13 +133,13 @@
 #define STA_AUTO_RECONNECT            true                        // automatically reconnect if connection is dropped
 #endif
 #ifndef STA_SSID
-#define STA_SSID                      "Home"                      // Station SSID to connnect to
+#define STA_SSID                      "ASTROCOMP-AJT"                      // Station SSID to connnect to
 #endif
 #ifndef STA_PASSWORD
-#define STA_PASSWORD                  "password"                  // Wifi Station mode password
+#define STA_PASSWORD                  "ajtownshend1968"                  // Wifi Station mode password
 #endif
 #ifndef STA_DHCP_ENABLED
-#define STA_DHCP_ENABLED              false                       // Wifi Station/Ethernet DHCP enabled
+#define STA_DHCP_ENABLED              true                       // Wifi Station/Ethernet DHCP enabled
 #endif
 #ifndef STA_IP_ADDR
 #define STA_IP_ADDR                   {192,168,0,2}               // Wifi Station/Ethernet IP Address
